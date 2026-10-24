@@ -488,7 +488,7 @@ h1 span,.section-title span {
   gap: 2.5rem;
   align-items: center;
   padding: 2rem 1.25rem;
-  font-size: 0.8925rem;
+  font-size: 1.115625rem;
   line-height: 1.35;
 }
 
@@ -789,10 +789,40 @@ h1 span,.section-title span {
   }
 
   .footer-inner {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-areas:
+      "brand ."
+      "copyright school"
+      "contact school";
+    gap: .75rem 1.5rem;
+    align-items: start;
     padding: 2.5rem 0;
-    font-size: 0.595rem;
+    font-size: 0.80325rem;
+  }
+
+  .footer-inner > * {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .footer-brand {
+    grid-area: brand;
+  }
+
+  .footer-school {
+    grid-area: school;
+  }
+
+  .copyright {
+    grid-area: copyright;
+  }
+
+  .footer-contact {
+    grid-area: contact;
+  }
+
+  .footer-school strong {
+    white-space: normal;
   }
 
   .footer-brand img {
@@ -991,8 +1021,7 @@ h1 span,.section-title span {
   }
 
   .footer-inner {
-    grid-template-columns: 1fr;
-    gap: 1.75rem;
+    gap: .75rem 1.25rem;
     padding-block: 2.5rem;
   }
 
