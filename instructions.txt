@@ -1,0 +1,18 @@
+Intruções:
+
+Programar uma landing page usando HTML, CSS e JS. É sobre um aplicativo que tem o objetivo de auxiliar pessoas com alergias alimentares a se alimentarem com maior segurança.
+
+IMPORTANTE: Seguir a risa, de forma idêntica, o protótipo da landing page "designLanding\Lading Page - Allivia.png". São 4 seção + o footer, cada uma com seus respectivos icones e imagens disponiveis dentro da pasta "designLanding\icones". A logo está disponivel na pasta "designLanding/paletaLogo". Tudo deve ser funcional e vetorizado, com interface responsiva e opção mobile.
+
+Paleta de cores:
+
+#F68424
+#FFFFFF
+#4C532F
+#EFFFE0
+#363636
+#757575
+#ABB77A
+#FEFAEF
+#000000
+
