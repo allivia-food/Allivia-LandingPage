@@ -133,7 +133,7 @@ section[id] {
   gap: 4rem;
   width: 54.5rem;
   color: var(--gray);
-  font-size: 1.59375rem;
+  font-size: 1.4503125rem;
   font-weight: 700;
 }
 
@@ -488,7 +488,7 @@ h1 span,.section-title span {
   gap: 2.5rem;
   align-items: center;
   padding: 2rem 1.25rem;
-  font-size: 1.275rem;
+  font-size: 0.8925rem;
   line-height: 1.35;
 }
 
@@ -590,7 +590,7 @@ h1 span,.section-title span {
     background: var(--white);
     padding: .5rem 1.5rem 1rem;
     box-shadow: 0 8px 12px #0001;
-    font-size: 0.95625rem;
+    font-size: 0.8701875rem;
   }
 
   .main-nav.is-open {
@@ -792,7 +792,7 @@ h1 span,.section-title span {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     padding: 2.5rem 0;
-    font-size: 0.85rem;
+    font-size: 0.595rem;
   }
 
   .footer-brand img {
@@ -822,7 +822,7 @@ h1 span,.section-title span {
     box-shadow: none;
     padding: 0;
     gap: .25rem 1rem;
-    font-size: 0.85rem;
+    font-size: 0.7735rem;
   }
 
 }
